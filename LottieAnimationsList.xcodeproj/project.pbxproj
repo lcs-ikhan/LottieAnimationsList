@@ -13,6 +13,9 @@
 		85936AFB29908D630023483F /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85936AFA29908D630023483F /* AnimationsListView.swift */; };
 		85936AFE29908E110023483F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 85936AFD29908E110023483F /* Lottie */; };
 		85936B0229909B680023483F /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85936B0129909B680023483F /* LottieView.swift */; };
+		85936B0529909CCC0023483F /* 135765-clown.json in Resources */ = {isa = PBXBuildFile; fileRef = 85936B0429909CCC0023483F /* 135765-clown.json */; };
+		85936B0729909D040023483F /* 132660-basketball.json in Resources */ = {isa = PBXBuildFile; fileRef = 85936B0629909D040023483F /* 132660-basketball.json */; };
+		85936B0929909D530023483F /* 134482-ramadan-kareem.json in Resources */ = {isa = PBXBuildFile; fileRef = 85936B0829909D530023483F /* 134482-ramadan-kareem.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		85936AF129908B330023483F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85936AFA29908D630023483F /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 		85936B0129909B680023483F /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		85936B0429909CCC0023483F /* 135765-clown.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "135765-clown.json"; sourceTree = "<group>"; };
+		85936B0629909D040023483F /* 132660-basketball.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "132660-basketball.json"; sourceTree = "<group>"; };
+		85936B0829909D530023483F /* 134482-ramadan-kareem.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "134482-ramadan-kareem.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				85936AEA29908B2A0023483F /* LottieAnimationsListApp.swift */,
+				85936B0329909C9C0023483F /* Animations */,
 				85936AF829908CEA0023483F /* Model */,
 				85936AF929908CF30023483F /* Views */,
 				85936AEE29908B330023483F /* Assets.xcassets */,
@@ -86,6 +93,16 @@
 				85936B0129909B680023483F /* LottieView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		85936B0329909C9C0023483F /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				85936B0629909D040023483F /* 132660-basketball.json */,
+				85936B0829909D530023483F /* 134482-ramadan-kareem.json */,
+				85936B0429909CCC0023483F /* 135765-clown.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +169,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85936B0529909CCC0023483F /* 135765-clown.json in Resources */,
 				85936AF229908B330023483F /* Preview Assets.xcassets in Resources */,
+				85936B0729909D040023483F /* 132660-basketball.json in Resources */,
 				85936AEF29908B330023483F /* Assets.xcassets in Resources */,
+				85936B0929909D530023483F /* 134482-ramadan-kareem.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,6 +16,7 @@
 		85936B0529909CCC0023483F /* 135765-clown.json in Resources */ = {isa = PBXBuildFile; fileRef = 85936B0429909CCC0023483F /* 135765-clown.json */; };
 		85936B0729909D040023483F /* 132660-basketball.json in Resources */ = {isa = PBXBuildFile; fileRef = 85936B0629909D040023483F /* 132660-basketball.json */; };
 		85936B0929909D530023483F /* 134482-ramadan-kareem.json in Resources */ = {isa = PBXBuildFile; fileRef = 85936B0829909D530023483F /* 134482-ramadan-kareem.json */; };
+		85936B0B29909D9B0023483F /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85936B0A29909D9B0023483F /* FavouriteAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		85936B0429909CCC0023483F /* 135765-clown.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "135765-clown.json"; sourceTree = "<group>"; };
 		85936B0629909D040023483F /* 132660-basketball.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "132660-basketball.json"; sourceTree = "<group>"; };
 		85936B0829909D530023483F /* 134482-ramadan-kareem.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "134482-ramadan-kareem.json"; sourceTree = "<group>"; };
+		85936B0A29909D9B0023483F /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		85936AF829908CEA0023483F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				85936B0A29909D9B0023483F /* FavouriteAnimation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85936B0B29909D9B0023483F /* FavouriteAnimation.swift in Sources */,
 				85936AEB29908B2A0023483F /* LottieAnimationsListApp.swift in Sources */,
 				85936AFB29908D630023483F /* AnimationsListView.swift in Sources */,
 				85936B0229909B680023483F /* LottieView.swift in Sources */,
